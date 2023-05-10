@@ -1,0 +1,9 @@
+.home {
+    background-color: #284bde;
+    color: #ffffff;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.005rem;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.home {
+    background-color: #284bde;
+    color: #ffffff;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.005rem;
+    cursor: pointer;
+}
+
+input {
+    height : 45px;
+    width : 300px;
+    border : 1px solid #e4f2f7;
+    border-radius: 6px;
+    padding : 2px 10px;
+    margin-right : 10px;
+}
+
+.submitButton {
+    background-color: #284bde;
+    color: #ffffff;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.005rem;
+    cursor: pointer;
+}
+
+.removeTaskButton{
+    background-color: #ac3b61;
+    height: 32px;
+    color: white;
+    border-radius: 4px;
+    width: 70px;
+    border:none;
+}
+
+.taskItem {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    padding : 8px 40px;
+}
