@@ -7,9 +7,11 @@ const TodoRender = () => {
 
     return (
         <ul>
-            {todos.map(todo => (
-                <TodoItem id={todo.id} title={todo.name}/>
-            ))}
+            {todos.length > 0
+                ? todos.map(todo => (
+                    <TodoItem id={todo.id} title={todo.name} todo={todo}/>
+                ))
+                : <h2>No todos yet</h2>}
         </ul>
     );
 };

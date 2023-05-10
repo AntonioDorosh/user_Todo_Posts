@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {
     setFirstName,
     setLastName
-} from "../../components/store/UserReducer/UserSlice";
+} from "../../features/UserReducer/UserSlice";
 
 const Input = () => {
     const dispatch = useDispatch()

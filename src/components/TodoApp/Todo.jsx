@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Link} from "react-router-dom";
 import styles from './Todo.module.css'
 import {useDispatch} from "react-redux";
-import {addTask} from "../store/TodoReducer/todoSlice";
+import {addTask} from "../../features/TodoReducer/todoSlice";
 import TodoRender from "./TodoRender";
 
 const Todo = () => {
@@ -33,7 +33,7 @@ const Todo = () => {
                 <button className={styles.home}>Back home</button>
             </Link>
             <h2>Todo App</h2>
-            <div style={{display: 'flex', justifyContent: 'center'}}>
+            <div style={{display: 'flex', justifyContent: 'center', marginBlockEnd: '2rem'}}>
                 <input type="text" placeholder='add todo' value={value} onChange={(event) => setValue(event.target.value)}/>
                 <button className={styles.submitButton} type={"submit"} onClick={onSubmit}>submit
                 </button>

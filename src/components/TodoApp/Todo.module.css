@@ -42,3 +42,7 @@ input {
     justify-content: space-between;
     padding : 8px 40px;
 }
+
+.completed {
+    text-decoration: line-through;
+}
