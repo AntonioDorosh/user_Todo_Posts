@@ -20,10 +20,7 @@ const Todo = () => {
         }
 
         dispatch(
-            addTask({
-                task: value
-            })
-        )
+            addTask({task: value}))
         setValue('')
     }
 

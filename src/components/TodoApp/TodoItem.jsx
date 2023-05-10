@@ -19,9 +19,9 @@ const TodoItem = ({title, id, todo}) => {
 
     return (
         <li className={styles.taskItem}>
-            <button onClick={() => toggleTodoHandler(todo.id)}>Completed</button>
+            <button className={styles.completedButton} onClick={() => toggleTodoHandler(todo.id)}>Completed</button>
             <div className={`${todo.completed  ? styles.completed : ''}`}>
-                {title}
+                <h2>{title}</h2>
             </div>
             <button className={styles.removeTaskButton} onClick={removeTask}>remove</button>
         </li>
